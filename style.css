@@ -1,0 +1,63 @@
+* {
+background-color:#1b1b1b;
+color: white;
+
+}
+
+
+body {
+max-width: 1000px;
+margin: auto;
+
+}
+time {
+color:gray
+}
+
+h3 {
+text-align: center;
+color:olivedrab;
+font-size: 20pt ;
+
+}
+
+a {
+color:aqua;
+text-decoration:none;
+
+}
+hr {
+margin: 1em;  
+}
+
+
+#title {
+text-align: center;
+color:olivedrab;
+font-size: 38pt;
+
+}
+
+#welcome {
+text-align: center;
+
+
+}
+
+#articles {
+text-align: left;
+list-style-type: disc;
+margin-left: 150px;
+font-size: larger;
+}
+
+#pfp {
+display: block;
+margin:auto;
+width: 30%;
+height:auto;
+padding: 0;
+margin-bottom: 16px;
+}
+
+
