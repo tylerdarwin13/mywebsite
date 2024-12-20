@@ -6,7 +6,7 @@ color: white;
 
 
 body {
-max-width: 1000px;
+max-width: 900px;
 margin: auto;
 
 }
@@ -26,10 +26,38 @@ color:aqua;
 text-decoration:none;
 
 }
+
 hr {
 margin: 1em;  
 }
 
+.two-column-list {
+    display: flex;
+    flex-wrap: wrap; /* Allows wrapping of items into multiple rows */
+    justify-content: space-between;
+  }
+  .two-column-list li {
+    flex: 1 0 40%; /* Each list item takes up 50% width */
+    list-style-type: none; /* Removes default bullet points */
+    padding: 5px; /* Optional: Adjust spacing between items */
+  }
+
+.subtitle {
+
+
+
+}  
+
+.subsubtitle {
+color:tan;
+font-size: 16pt;
+}
+
+.headline {
+
+font-size: 30pt;
+
+}
 
 #title {
 text-align: center;
@@ -60,4 +88,12 @@ padding: 0;
 margin-bottom: 16px;
 }
 
-
+#bookjak {
+  display: block;
+  margin:auto;
+  width: 50%;
+  height:auto;
+  padding: 0;
+  margin-bottom: 30px;
+  }
+  
